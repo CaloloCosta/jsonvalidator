@@ -125,8 +125,7 @@ function Home() {
         </div>
      
         <div class="row" id="about">
-            <div className="card-2"></div>
-            <div  class="result">
+            <div  class="content">
                 <h2>About JsonValidator</h2>
                 <p>JsonValidator.io is a json validator and a json formatter, by pasting in the json into the editor the editor will validate it and format it in case of the json is valid.</p>
                 <p>The app has 3 main functionalitie: <ol><li>Validate: Validates the json and format it if valid</li><li>Copy: Copy the editor's text to the clipboard</li><li>Clear: Clears the editor</li></ol></p>
@@ -142,16 +141,13 @@ function Home() {
                 <h2>What is Json</h2>
                 <p>JSON - javascript object notation, is a text-based data format that follows Javascript object syntas. Although it was primamrely developemed for javascript it is programming languange indepenedent, it is very usefull to transmit data accross the network. Almost all the moderm API make use of json data in an way.</p>
             </div>
-            <div className="card-2"></div>
         </div>
 
         <div class="row" id="contact">
-            <div className="card-2"></div>
-            <div className="result">
-                <h2>Contct Us</h2>
+            <div className="content">
+                <h2>Contact Us</h2>
                 <p>Feel free to contact us via email anytyme: <a href="mailto:jsonvalidator@gmail.com">jsonvalidator@gmail.com</a></p>
             </div>
-            <div className="card-2"></div>
         </div>
       </div>
       <Footer />

@@ -9,11 +9,12 @@ import Privacy from "./components/Privacy";
 
 function App() {
   return (  
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/terms" element ={<Terms />}/>
         <Route path="/privacy" element ={<Privacy />}/>
+        <Route path="{NotFpund}" status={404}/>
       </Routes>
     </Router>
 
