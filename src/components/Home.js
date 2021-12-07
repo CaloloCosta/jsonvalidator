@@ -15,7 +15,6 @@ let myTheme = EditorView.theme(
     "&": {
       height: "400px",
       border: "2px solid #dddddd",
-      width: "90vw"
     },
     "&.cm-focused": { outline: "2px solid red" },
     ".cm-scroller": { overflow: "auto" },
