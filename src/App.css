@@ -178,6 +178,27 @@ nav ul a{
   }
 }
 
+@media (max-width: 800px) {
+  .row{
+    flex-direction: column;
+  }
+  .buttons{
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    /* padding: 2vh;
+    flex-wrap: wrap; */
+    align-content: space-around;
+  }
+
+  .card-1{
+    width: 90vw;
+    text-align: justify;
+    margin: 2vh 0;
+  }
+
+}
+
 
 
 
@@ -230,11 +251,6 @@ nav ul a{
   color: #fff;
 }
 
-@media (min-width: 768px) {
-  .button {
-    min-width: 170px;
-  }
-}
 
 .Editor{
   display: flex;

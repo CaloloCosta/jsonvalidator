@@ -15,6 +15,7 @@ let myTheme = EditorView.theme(
     "&": {
       height: "400px",
       border: "2px solid #dddddd",
+      width: "90vw"
     },
     "&.cm-focused": { outline: "2px solid red" },
     ".cm-scroller": { overflow: "auto" },
@@ -106,6 +107,7 @@ function Home() {
             <div id="editor">
               <Editor />
             </div>
+            <div className="buttons">
             <button type="submit" className="button-2" id="submit">
               Validate
             </button>
@@ -115,6 +117,8 @@ function Home() {
             <button type="submit" className="button-2" id="clear">
               Clear
             </button>
+            </div>
+            
           </div>
           <div className="card-2"></div>
         </div>
@@ -126,27 +130,28 @@ function Home() {
      
         <div class="row" id="about">
             <div  class="content">
-                <h2>About JsonValidator</h2>
-                <p>JsonValidator.io is a json validator and a json formatter, by pasting in the json into the editor the editor will validate it and format it in case of the json is valid.</p>
-                <p>The app has 3 main functionalitie: <ol><li>Validate: Validates the json and format it if valid</li><li>Copy: Copy the editor's text to the clipboard</li><li>Clear: Clears the editor</li></ol></p>
+                <h2>About JSONverify</h2>                
+               <p>JSONverify is a JSON validator and a JSON formatter, pasting the JSON into the editor will validate it and format it in case of a valid JSON.</p>
+                <p>The app has 3 main functionalities: <ol><li>Validate: Validates the JSON and format it if valid</li><li>Copy: Copy the editor's text to the clipboard</li><li>Clear: Clears the editor</li></ol></p>
                 <h2>Why use json validator</h2>
-                <p>Debbugin huge json objects can be stresfful and time consuming sometimes</p>
-                <p>The aim of the application is to help developers that are tryinig to debug json objects, they can get really complictaed when they are huge, so using the jsonvalidator.io will make the process of debugging much simpler and faster. Also the applacation can be sued to format json objects.</p>
+                <p>Debugging huge JSON objects can be stressful and time-consuming sometimes</p>
+                <p>The aim of the application is to help developers that are trying to debug JSON objects, they can get really complicated when they are huge, so using the JSONverify will make the process of debugging much simpler and faster. Also, the application can be sued to format JSON objects.</p>
                 <h2>What you should you expect in case of an invalid json</h2>
-                <p>In case of an invalid json a red box will show up right bellow the aditor saying the json is invalid and where the error is located so you can modify it</p>
+                <p>In case of an invalid JSON a red box will show up right below the editor saying the JSON is invalid and where the error is located so you can modify it</p>
                 <img src="./invalid.png" alt="invalid json result" />
                 <h2>What you should you expect in case of a valid json</h2>
-                <p>In case of a valid json a green box will show up right bellow the editor saying that the json is valid.</p>
+                <p>In case of a valid JSON a green box will show up right below the editor saying that the JSON is valid.</p>
                 <img src="./valid.png" alt="valid json result" />
                 <h2>What is Json</h2>
-                <p>JSON - javascript object notation, is a text-based data format that follows Javascript object syntas. Although it was primamrely developemed for javascript it is programming languange indepenedent, it is very usefull to transmit data accross the network. Almost all the moderm API make use of json data in an way.</p>
+                <p>JSON - javascript object notation, is a text-based data format that follows Javascript object syntax. Although it was primarily developed for javascript it is a programming language independent, it is very useful to transmit data across the network. Almost all of the modern APIs make use of JSON data in a way.</p>
             </div>
         </div>
 
         <div class="row" id="contact">
             <div className="content">
                 <h2>Contact Us</h2>
-                <p>Feel free to contact us via email anytyme: <a href="mailto:jsonvalidator@gmail.com">jsonvalidator@gmail.com</a></p>
+                <p>Hi my name is Carlos da Costa, and I am the developer of JSONverify.</p>
+                <p>I would like to hear from you, for any enquiry feel free to contact me via email anytime: <a href="mailto:contact.carlosdacosta@gmail.com">contact.carlosdacosta@gmail.com</a></p>
             </div>
         </div>
       </div>

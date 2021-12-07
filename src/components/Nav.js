@@ -4,7 +4,7 @@ import React from "react";
 export default function Nav() {
     return (
         <nav>
-            <h1>Json Validator</h1>
+            <h1>JSONverify</h1>
             <ul>
                 <li>
                     <a href="#about">About</a>
