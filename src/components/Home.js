@@ -14,7 +14,10 @@ let myTheme = EditorView.theme(
   {
     "&": {
       height: "400px",
+      width: "auto",
       border: "2px solid #dddddd",
+      width: "auto"
+
     },
     "&.cm-focused": { outline: "2px solid red" },
     ".cm-scroller": { overflow: "auto" },
@@ -101,8 +104,8 @@ function Home() {
       <div className="Container">
         <div className="Ad-top"></div>
         <div className="row">
-          <div className="card-2"></div>
-          <div className="card-1">
+        
+          <div className="content">
             <div id="editor">
               <Editor />
             </div>
@@ -117,9 +120,8 @@ function Home() {
               Clear
             </button>
             </div>
-            
           </div>
-          <div className="card-2"></div>
+        
         </div>
         <div class="row">
           <div className="card-2"></div>

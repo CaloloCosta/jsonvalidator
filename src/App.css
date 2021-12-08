@@ -33,9 +33,7 @@ nav{
   padding: 0 5vw;
   align-content: space-between;
 }
-nav h1{
-  /* flex-grow: 1; */
-}
+
 nav ul{
   display: flex;
   flex-grow: 3;
@@ -88,15 +86,17 @@ nav ul a{
 }
 .card-1{
   flex-grow: 3;
-  background-color: #fff;
+  background-color: #000;
   text-align: justify;
   margin: 2vh 0;
 }
 .card-2{
   flex-grow: 1;
-  background-color: #fff;
   text-align: justify;
   margin: 2vh 0;
+}
+#editor{
+  width: 100%;
 }
 
 .result{
@@ -183,8 +183,9 @@ nav ul a{
   .row{
     flex-direction: column;
   }
+  
   .buttons{
-    justify-content:center;
+    justify-content:left;
     display: flex;
     flex-direction: column;
     /* padding: 2vh;
@@ -252,10 +253,6 @@ nav ul a{
   color: #fff;
 }
 
-
-.Editor{
-  display: flex;
-}
 
 #result{
   border-radius: 5px;
