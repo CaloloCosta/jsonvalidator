@@ -131,20 +131,20 @@ function Home() {
      
         <div class="row" id="about">
             <div  class="content">
-                <h2>About JSONverify</h2>                
+                <h2>JSONverify - Json Validator</h2>                
                <p>JSONverify is a JSON validator and a JSON formatter, pasting the JSON into the editor will validate it and format it in case of a valid JSON.</p>
                 <p>The app has 3 main functionalities: <ol><li>Validate: Validates the JSON and format it if valid</li><li>Copy: Copy the editor's text to the clipboard</li><li>Clear: Clears the editor</li></ol></p>
                 <h2>Why use json validator</h2>
                 <p>Debugging huge JSON objects can be stressful and time-consuming sometimes</p>
-                <p>The aim of the application is to help developers that are trying to debug JSON objects, they can get really complicated when they are huge, so using the JSONverify will make the process of debugging much simpler and faster. Also, the application can be sued to format JSON objects.</p>
+                <p>The aim of the application is to help developers that are trying to debug JSON objects, they can get really complicated when they are huge, so using the JSONverify will make the process of debugging much simpler and faster. Also, the application can be used to format JSON objects.</p>
                 <h2>What you should you expect in case of an invalid json</h2>
                 <p>In case of an invalid JSON a red box will show up right below the editor saying the JSON is invalid and where the error is located so you can modify it</p>
                 <img src="./invalid.png" alt="invalid json result" />
-                <h2>What you should you expect in case of a valid json</h2>
+                <h2>What you should expect in case of a valid json</h2>
                 <p>In case of a valid JSON a green box will show up right below the editor saying that the JSON is valid.</p>
                 <img src="./valid.png" alt="valid json result" />
                 <h2>What is Json</h2>
-                <p>JSON - javascript object notation, is a text-based data format that follows Javascript object syntax. Although it was primarily developed for javascript it is a programming language independent, it is very useful to transmit data across the network. Almost all of the modern APIs make use of JSON data in a way.</p>
+                <p>JSON - javascript object notation, is a text-based data format that follows Javascript object syntax. Although it was primarily developed for javascript it is a programming language independent, it is very useful to transmit data across the network. Almost all of the modern APIs make use of JSON data in a way. You can check <a href="https://www.json.org">json.org</a> for more info on json.</p>
             </div>
         </div>
 
