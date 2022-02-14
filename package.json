@@ -1,6 +1,5 @@
 {
   "name": "jsonvalidator",
-  "homepage": "https://jsonverify.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -53,7 +52,6 @@
     "gh-pages": "^3.2.3"
   },
   "reactSnap": {
-    "inlineCss": true,
-    "publicPath": "https://jsonverify.com" 
+    "inlineCss": true
   }
 }
