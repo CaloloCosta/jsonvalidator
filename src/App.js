@@ -12,7 +12,7 @@ function App() {
   return (  
     <Router basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="/" element={<Home />}/>
+        <Route path="" element={<Home />}/>
         <Route path="/terms" element ={<Terms />}/>
         <Route path="/privacy-policy" element ={<Privacy />}/>
         <Route path="*" element ={<NotFound />}/>
